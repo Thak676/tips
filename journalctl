@@ -1,0 +1,10 @@
+
+# Get journalctl usage
+$ journalctl --disk-usage
+
+# Make journalctl only keep the last 2 days of logs # Not sure if this setting persists
+sudo journalctl --vacuum-time=2d
+
+# Useful for realtime feedback of journalctl:
+alias j="journalctl -n 200 -f"
+
