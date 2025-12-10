@@ -1,0 +1,13 @@
+explain the difference between a list and dict
+can you use a function as an element of a list?
+What is a lambda function?
+Can a lambda function return multiple objects?
+	Technically no, but sort of yes. Because "multiple return values/objects" in Python are packed in a single tuple, which is technically returning one object. You can do the same with lambda functions.
+Can a tuple contain immutable objects?
+	A: yes. Think of the tuple as being fixed size and containing "pointers" (objects) that cannot be changed.
+
+Question for me: variadic arguments to function?
+	Is there an equivalent to that but variadic returns, so dynamically determining return size?
+	A: Yes. For tuples it cannot be dynamic, but you can return a list or dict and just put in however many things you need, then just unpack that list or dict after the function has returned.
+
+214

@@ -11,6 +11,11 @@ set softtabstop=4   " Sets the number of columns for a TAB
 
 "set listchars=eol:¬,tab:>·,trail:~,extends:>,precedes:<,space:·
 set listchars=eol:¬,tab:>·,trail:~,extends:>,precedes:<
-set list
+"set list
 
+set number
+set numberwidth=2
+
+hi LineNr  guifg=#505050   guibg=Black
+hi Normal  guifg=White     guibg=Black
 
